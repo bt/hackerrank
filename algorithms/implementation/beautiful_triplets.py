@@ -1,5 +1,6 @@
 n, d = input().strip().split(' ')
 n, d = [int(n), int(d)]
+
 seq = {}
 for a in input().strip().split(' '):
     seq[int(a)] = int(a)
